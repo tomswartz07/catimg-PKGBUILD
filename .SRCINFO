@@ -1,0 +1,14 @@
+pkgbase = catimg
+	pkgdesc = Insanely fast image printing in your terminal. Latest commit from Github.
+	pkgver = 1
+	pkgrel = 1
+	url = https://github.com/posva/catimg
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = imagemagick
+	source = catimg::git+https://github.com/posva/catimg.git
+	sha256sums = SKIP
+
+pkgname = catimg
+
